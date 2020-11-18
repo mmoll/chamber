@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
     'wiki_uri'          => 'https://github.com/thekompanee/chamber/wiki',
   }
 
-  spec.add_dependency             'thor',          [">= 0.19.1", "< 0.21"]
+  spec.add_dependency             'thor',          ["~> 1.0"]
   spec.add_dependency             'hashie',        ["~> 3.3"]
 
   spec.add_development_dependency 'rspec',         ["~> 3.5"]
